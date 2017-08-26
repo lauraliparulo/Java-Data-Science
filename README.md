@@ -1,5 +1,5 @@
 # DataScience
 Data Science demos with Java :-)
 
-##Bibliography
+## Bibliography
 https://www.packtpub.com/big-data-and-business-intelligence/java-data-science
