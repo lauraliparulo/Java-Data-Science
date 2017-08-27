@@ -1,9 +1,7 @@
 package de.datascience.charts;
 
 import java.io.FileReader;
-import java.io.Reader;
 
-import com.opencsv.CSVParser;
 import com.opencsv.CSVReader;
 
 import javafx.application.Application;
@@ -43,7 +41,6 @@ public class UnemploymentGermany extends Application {
 				int population = Integer.parseInt(nextLine[1]);
 				series.getData().add(new XYChart.Data(year, population));
 				int populationWest = Integer.parseInt(nextLine[2]);
-				;
 				seriesWest.getData().add(new XYChart.Data(year, populationWest));
 				int populationEast = Integer.parseInt(nextLine[3]);
 				seriesEast.getData().add(new XYChart.Data(year, populationEast));
