@@ -30,7 +30,7 @@ public class MaritalStatusSalaryCorrelation extends Application {
 		final ScatterChart<String, Number> scatterChart = new ScatterChart<>(xAxis, yAxis);
 		yAxis.setLabel("Salary");
 		xAxis.setLabel("Marital Status");
-		scatterChart.setTitle("Salary Marital Status correlation");
+		scatterChart.setTitle("Salary - Marital Status correlation");
 
 		XYChart.Series series = new XYChart.Series();
 
