@@ -11,7 +11,7 @@ import org.apache.commons.math3.stat.descriptive.moment.Mean;
 import org.apache.commons.math3.stat.descriptive.moment.StandardDeviation;
 import org.apache.commons.math3.stat.descriptive.rank.Median;
 
-public class DemoWithApacheCommonsMath {
+public class DescriptiveFunctionsDemo {
 
 	static double[] testData = { 12.5, 18.7, 11.2, 19.0, 22.1, 14.3, 16.9, 12.5, 17.8, 16.9 };
 
