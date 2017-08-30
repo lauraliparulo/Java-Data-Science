@@ -14,6 +14,13 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
 
+	<repositories>
+		<repository>
+			<id>jboss-3rd-party-releases</id>
+			<url>https://repository.jboss.org/nexus/content/repositories/thirdparty-releases/</url>
+		</repository>
+	</repositories>
+
 	<dependencies>
 		<dependency>
 			<groupId>com.opencsv</groupId>
@@ -26,5 +33,11 @@
 			<version>4.12</version>
 			<scope>test</scope>
 		</dependency>
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-math3</artifactId>
+			<version>3.6.1</version>
+		</dependency>	
 	</dependencies>
+
 </project>
